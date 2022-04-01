@@ -1,0 +1,70 @@
+[]  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-29T19:59:25.756Z",
+        "line": 97,
+        "name": "Validar links no rodape em My Account",
+        "description": "",
+        "id": "home;validar-links-no-rodape-em-my-account",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 796000000,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "que estou na pagina inicial",
+            "match": {
+              "location": "org.br.curso.steps.HomeSteps.que_estou_na_pagina_inicial()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 3220000000,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "clicar nos links da categoria My Account",
+            "match": {
+              "location": "org.br.curso.steps.HomeSteps.clicar_nos_links_da_categoria_My_Account()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 199000000,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "sera redirecionado para a pagina MyOrders",
+            "match": {
+              "location": "org.br.curso.steps.HomeSteps.sera_redirecionado_para_a_pagina_MyOrders()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CT\u003d1"
+          },
+          {
+            "name": "@CT0040_Validar_links_no_rodape_em_My_Account"
+          },
+          {
+            "name": "@home"
+          }
+        ]
+      }
+    ],
+    "name": "Home",
+    "description": "",
+    "id": "home",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/main/java/org/br/curso/features/Home.feature",
+    "tags": []
+  }
+]
